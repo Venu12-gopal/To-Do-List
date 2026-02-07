@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(132, 146, 150);
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.textBox{
+    width: 330px;
+    height: 25px;
+    color: antiquewhite;
+    background-color: antiquewhite;
+    font-size: medium;
+}
+.btn{
+    width: 70px;
+    padding: 4px;
+    background-color: rgb(112, 125, 131);
+    color: black;
+    font-size: medium;
+}
+.btn:hover{
+    background-color: rgb(7, 30, 40);
+    color: white;
+
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(33, 124, 136);
+    width: 100%;
+}
+.listItems{
+    gap: 10px;
+    font-size: large;
+}
+.deletebtn{
+    background-color: rgb(243, 30, 30);
+    
+}
+.deletebtn:hover{
+    background-color: rgb(247, 5, 5);
+    color: white;
+    width: 50px;
+    height: 30px;
+    
+}
+.editbtn{
+    background-color: rgb(128, 128, 161);
+    color: rgb(18, 62, 74);
+}
+.editbtn:hover{
+    background-color: rgb(54, 54, 139);
+    color: white;
+    width: 50px;
+    height: 30px;
+}
